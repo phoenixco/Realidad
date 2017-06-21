@@ -2,7 +2,7 @@ package realidad;
 
 /**Clase que encapsula un objeto realidad .
  * 
- * @Javier &Gregorio &Alvaro &Samuel& Mihaela
+ * @ Mihaela Ioan
  * @ 16.03.2015
  */
 public class Realidad
@@ -47,7 +47,7 @@ public class Realidad
     }
     
     /**
-     * Método asigna al objeto de tipo realidad el valor que recibe por parametro.[ENEMIGOS||NORMALES||AMIGABLES]
+     * MÃ©todo asigna al objeto de tipo realidad el valor que recibe por parametro.[ENEMIGOS||NORMALES||AMIGABLES]
      * 
      * @param per - percepcion de los demas
      */
@@ -62,7 +62,7 @@ public class Realidad
     }
     
     /**
-     * Método asigna al objeto de tipo realidad el valor que recibe por parametro.[MALA||NORMAL||BUENA]
+     * MÃ©todo asigna al objeto de tipo realidad el valor que recibe por parametro.[MALA||NORMAL||BUENA]
      * 
      * @param perD - percepcion de si mismo
      */
@@ -77,7 +77,7 @@ public class Realidad
     }
     
     /**
-     * Método asigna al objeto de tipo realidad el valor que recibe por parametro.[DEPRIMIDO||FELIZ||FEERICO]
+     * MÃ©todo asigna al objeto de tipo realidad el valor que recibe por parametro.[DEPRIMIDO||FELIZ||FEERICO]
      * 
      * @param emocion - estado emocional.
      */
@@ -91,7 +91,7 @@ public class Realidad
         }
     }
     /**
-     * Método asigna un valor al objeto de tipo realidad . * 
+     * MÃ©todo asigna un valor al objeto de tipo realidad . * 
      */
     public void setMundo(){
         if(this.estadoEmocional==FEERICO){
@@ -104,7 +104,7 @@ public class Realidad
     }
     
     /**
-     * Método asigna al objeto de tipo realidad los valores que recibe por parametro.
+     * MÃ©todo asigna al objeto de tipo realidad los valores que recibe por parametro.
      * 
      * @param per - percepcion de los demas
      * @param per - percepcion de los demas
@@ -120,7 +120,7 @@ public class Realidad
     }
     
     /**
-     * Método para obtener el nombre de la realidad.
+     * MÃ©todo para obtener el nombre de la realidad.
      * 
      * @return String - nombre;
      */
@@ -129,7 +129,7 @@ public class Realidad
     }
     
     /**
-     * Método para obtener el mundo de la realidad.
+     * MÃ©todo para obtener el mundo de la realidad.
      * 
      * @return String - mundo;
      */
@@ -137,7 +137,7 @@ public class Realidad
         return mundo;    
     }
     /**
-     * Método para obtener el estado emocional.
+     * MÃ©todo para obtener el estado emocional.
      * 
      * @return String - estado emocional;
      */
@@ -145,7 +145,7 @@ public class Realidad
         return this.estadoEmocional;    
     }
     /**
-     * Método para obtener la percepcion de los demas.
+     * MÃ©todo para obtener la percepcion de los demas.
      * 
      * @return String - percepcion de los demas.
      */
@@ -154,7 +154,7 @@ public class Realidad
     }
     
     /**
-     * Método para obtener la percepcion de si mismo.
+     * MÃ©todo para obtener la percepcion de si mismo.
      * 
      * @return String - percepcion de si mismo.
      */
@@ -163,7 +163,7 @@ public class Realidad
     }
     
     /**
-     * Método para obtener modificar el objeto de tipo realidad con una realidad recibida por parametro.
+     * MÃ©todo para obtener modificar el objeto de tipo realidad con una realidad recibida por parametro.
      * 
      * @param Realidad - realidad.
      */
@@ -188,7 +188,7 @@ public class Realidad
     }
     
     /**
-     * Método para obtener la realidad recibida por parametro es optimista o no .
+     * MÃ©todo para obtener la realidad recibida por parametro es optimista o no .
      * 
      * @return boolean  - true/false;
      */
@@ -200,7 +200,7 @@ public class Realidad
        return sw;
     }
     /**
-     * Método para obtener la realidad recibida por parametro es optimista o no .
+     * MÃ©todo para obtener la realidad recibida por parametro es optimista o no .
      * 
      * @return boolean  - true/false;
      * 
