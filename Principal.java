@@ -4,7 +4,7 @@ import java.util.Scanner;
 /**
  * Clase principal.Trabaja con las clases Persona (introduciendo los datos de dos personas) y Realidad.
  * 
- * @Javier & Gregorio & Alvaro & Samuel & Mihaela
+ * @ Mihaela Ioan
  * @16.03.2015
  */
 public class Principal
@@ -26,9 +26,9 @@ public class Principal
         System.out.printf("Introduce el estado emocional [DEPRIMIDO || FELIZ || FEERICO]: ");
         emocion=sc.nextLine();
               
-        System.out.printf("Introduce la percepci髇 de si mismo [MALA|| NORMAL || BUENA]: ");
+        System.out.printf("Introduce la percepci贸n de si mismo [MALA|| NORMAL || BUENA]: ");
         percepcion=sc.nextLine();
-        System.out.printf("Introduce la percepci髇 de los demas [ENEMIGOS|| NORMALES|| AMIGABLES]:");
+        System.out.printf("Introduce la percepci贸n de los demas [ENEMIGOS|| NORMALES|| AMIGABLES]:");
         percepciondemas=sc.nextLine();
         Persona persona1=new Persona(nombre, edad, emocion, percepcion, percepciondemas);
         System.out.printf("_______________________________________________________________________________________________________________________\n");
@@ -42,9 +42,9 @@ public class Principal
         System.out.printf("Introduce el estado emocional [DEPRIMIDO|| FELIZ|| FEERICO]:");
         emocion1=sc.nextLine();
              
-        System.out.printf("Introduce la percepci髇 de si mismo [MALA || NORMAL || BUENA]:");
+        System.out.printf("Introduce la percepci贸n de si mismo [MALA || NORMAL || BUENA]:");
         percepcion1=sc.nextLine();
-        System.out.printf("Introduce la percepci髇 de los demas [ENEMIGOS || NORMALES || AMIGABLES]:");
+        System.out.printf("Introduce la percepci贸n de los demas [ENEMIGOS || NORMALES || AMIGABLES]:");
         percepciondemas1=sc.nextLine();
         Persona persona2=new Persona(nombre1, edad1, emocion1,  percepcion1, percepciondemas1);
               
@@ -63,7 +63,7 @@ public class Principal
                               
                        System.out.printf("Esta [%s ] \n", Principal.estEmo( persona1.getPersona().getestadoEmocional()));
                        System.out.printf("%s : Ve a los demas [ %s] \n ",nombre, Principal.perDemas( persona1.getPersona().getestadoEmocional()));
-                       System.out.printf("%s :Tiene una percepci髇 [ %s ] de si mismo\n",nombre, Principal.perMismo( persona1.getPersona().getestadoEmocional()));
+                       System.out.printf("%s :Tiene una percepci贸n [ %s ] de si mismo\n",nombre, Principal.perMismo( persona1.getPersona().getestadoEmocional()));
                               
                        System.out.printf("***********************************************************************************************\n");
                               
@@ -72,7 +72,7 @@ public class Principal
                               
                        System.out.printf("%s : Esta %s \n", nombre1,Principal.estEmo( persona2.getPersona().getestadoEmocional()));
                        System.out.printf("%s : Ve a los demas  %s\n ",nombre1, Principal.perDemas( persona2.getPersona().getestadoEmocional()));
-                       System.out.printf("%s :Tiene una percepci髇 %s de si mismo \n",nombre1, Principal.perMismo( persona2.getPersona().getestadoEmocional()));
+                       System.out.printf("%s :Tiene una percepci贸n %s de si mismo \n",nombre1, Principal.perMismo( persona2.getPersona().getestadoEmocional()));
 
                 System.out.printf("_______________________________________________________________________________________________________________________\n");
                        break;
@@ -110,7 +110,7 @@ public class Principal
                 System.out.printf(" %s :Ve a los demas  %s\n ", nombre1,Principal.perDemas( persona2.getPersona().getestadoEmocional()));
                 System.out.printf(" %s :Tiene una percepcion %s de si mismo \n", nombre1,Principal.perMismo( persona2.getPersona().getestadoEmocional()));
 
-                default:System.out.printf("No es una opci髇 corecta"); break; 
+                default:System.out.printf("No es una opci贸n corecta"); break; 
             }
             System.out.printf("Quieres salir del programa? si/no\n ");
             entrada=sc.nextLine();
@@ -120,7 +120,7 @@ public class Principal
     }
             
     /**
-     * M閠odo para asignar un valor  el estado emocional recibido por par醡etro.
+     * M茅todo para asignar un valor  el estado emocional recibido por par谩metro.
      * 
      * @param int- estado emocional
      * @return String - estado emocional
@@ -140,10 +140,10 @@ public class Principal
     }
     
     /**
-     * M閠odo para asignar un valor  a la percepci髇 de los demas recibida por parametro.
+     * M茅todo para asignar un valor  a la percepci贸n de los demas recibida por parametro.
      * 
-     * @param int- percepci髇 de los demas
-     * @return String - percepci髇 de los demas
+     * @param int- percepci贸n de los demas
+     * @return String - percepci贸n de los demas
      */
     public static String perDemas(int per){
         String percep="";
@@ -160,7 +160,7 @@ public class Principal
     }
     
     /**
-     * M閠odo para asignar un valor a la percepci髇 personal.
+     * M茅todo para asignar un valor a la percepci贸n personal.
      * 
      * @param int- percepcion personal
      * @return String - percepcion personal
