@@ -3,7 +3,7 @@ package realidad;
 /**
  * Clase que encapsula un objeto persona .
  * 
- * @Javier & Gregorio & Alvaro & Samuel & Mihaela
+ * @Mihaela Ioan
  * @16.03.2015
  */
 public class Persona
@@ -47,7 +47,7 @@ public class Persona
    }
     
    /**
-    * Método para obtener si la realidad recibida por parametro es optimista o no.
+    * MÃ©todo para obtener si la realidad recibida por parametro es optimista o no.
     * 
     * @param real - realidad
     * @return boolean - true/false
@@ -62,7 +62,7 @@ public class Persona
    }
     
    /**
-    * Método para obtener el nombre de la persona.
+    * MÃ©todo para obtener el nombre de la persona.
     * 
     * @return String - nombre;
     */
